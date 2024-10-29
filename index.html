@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Store</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <ion-icon name="grid-outline"></ion-icon>
+            </label>
+
+            <label class="logo">Tornado de Comida</label>
+
+            <ul>
+                <li><a href="#hero-section" class="active">Home</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary">
+                Bienvenidos a 
+                "Tornado de Comida"</span>
+            </h1>
+
+            <p class="tertiary">
+                Nuestro negocio surgió para ofrecer opciones de comida rápida que sean sabrosas y jugosas. Fundado por amigos apasionados por la cocina, 
+                buscamos brindar a la comunidad una alternativa deliciosa y conveniente sin sacrificar la calidad por la velocidad.
+            </p>
+
+            <a href="#menu" class="btn">Explore nuestro menu</a>
+        </div>
+        <div class="visual">
+            <img src="hamburger-1238246_640 (1).jpg" alt="" />
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <section class="section-meals">
+        <div class="txt">
+            <h1>NUESTROS PRODUCTOS MAS PEDIDOS</h1>
+        </div>
+        <div class="container grid grid--3-cols margin-right-md">
+            <div class="meal">
+                <img src="combo 2.jpg"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegetarian">PANCHOS</span>
+                    </div>
+                    <p class="meal-title">COMBO CICLON</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>650</strong>
+                                calorias</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>74</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> Rating
+                                (537)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="combo 1.jpg"
+                    class="meal-img" alt="Avocado Salad" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">HAMBURGUESA</span>
+                        <span class="tag tag--paleo">COMBO</span>
+                    </div>
+                    <p class="meal-title">HAMBURGUESA CON PAPAS Y BEBIDA</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>400</strong>
+                                calorias</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>92</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> Rating
+                                (441)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="combo 4.jpg"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">PIZZAS</span>
+                    </div>
+                    <p class="meal-title">PIZZA RAFAGA</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>450</strong>
+                                calorias</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>86</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.4</strong> Rating
+                                (349)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- How It Works -->
+    <div class="section" id="how-it-works">
+        <div class="txt">
+            <h1>¿COMO FUNCIONA?</h1>
+        </div>
+
+        <div class="container flex">
+            <div class="box">
+                <h3>Pedido facil</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    ¡Pedis desde tu casa a nuestro whatsapp o nos escribis por mensaje privado!
+                </p>
+            </div>
+
+            <div class="box active">
+                <h3>¡La mejor calidad!</h3>
+                <ion-icon style="color: black;" name="trophy-outline"></ion-icon>
+                <p>
+                    La calidad es nuestra prioridad; 
+                    cada ingrediente es seleccionado cuidadosamente para garantizar que nuestros clientes reciban solo lo mejor.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Lo mejor para tu bolsillo</h3>
+                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                <p>
+                    La accesibilidad es clave; queremos que todos puedan disfrutar de nuestra comida sin importar su presupuesto
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End How It Works -->
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="visual">
+                <img src="LOGO.jpg" alt="" />
+            </div>
+            <div class="text">
+                <div class="secondary">Acerca de nuestro emprendimiento</div>
+                <h2 class="primary">+200 pedidos</h2>
+                <h3 class="tertiary">Nuestros objetivos:</h3>
+                <p>
+                    El objetivo de nuestro emprendimiento es ofrecer una experiencia rápida y conveniente para nuestros clientes, brindando una variedad de platillos deliciosos y de alta calidad, ideales para llevar. Nos enfocamos en satisfacer las necesidades de quienes buscan una comida sabrosa sin sacrificar tiempo, asegurando que cada orden sea preparada con frescura y atención al detalle
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Restaurant Menu -->
+    <div class="section" id="menu">
+        <div class="container-menu">
+            <ul class="category">
+                <li class="active">Todos</li>
+                <li>Panchos</li>
+                <li>Hamburguesas</li>
+                <li>Pizza</li>
+                <li>Combos</li>
+            </ul>
+
+            <div class="container">
+                <div class="restaurant-menu">
+                    <div class="menu-item">
+                        <img src="panchis.jpg"
+                            alt="" />
+
+                        <div class="title">COMBO CICLON</div>
+
+                        <div class="location">Ideal para antes de ir a la cancha</div>
+
+                        <div class="order flex">
+                            <div class="price">$10.000</div>
+                            <a href="#" class="btn btn-menu">PEDI YA</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="hamb sola.jpg"
+                            alt="" />
+
+                        <div class="title">MEGA TORNADO</div>
+
+                        <div class="location">Ideal para esos bajones nocturnos</div>
+
+                        <div class="order flex">
+                            <div class="price">$9.500</div>
+                            <a href="#" class="btn btn-menu">PEDI YA</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="pizza.jpg"
+                            alt="" />
+
+                        <div class="title">RAFAGA PIZZA</div>
+
+                        <div class="location">Ideal para junatadas multitudinarias con amigos</div>
+
+                        <div class="order flex">
+                            <div class="price">$8.500</div>
+                            <a href="#" class="btn btn-menu">PEDI YA</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="hamb combo.jpg"
+                            alt="" />
+
+                        <div class="title">COMBO TORNADO</div>
+
+                        <div class="location">Ideal para un almuerzo barato en la hora laboral de almuerzo</div>
+
+                        <div class="order flex">
+                            <div class="price">$12.000</div>
+                            <a href="#" class="btn btn-menu">PEDI YA</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Restaurant Menu -->
+
+    <!-- FAQ -->
+    <div class="section" id="faq">
+        <h2 class="secondary">PREGUNTAS FRECUENTES DE NUESTROS CLIENTES</h2>
+
+        <div class="faq">
+            <details>
+                <summary>¿Cual es la vision de su emprendimiento?</summary>
+                <div class="content">
+                    <p>
+                        Ser la opción número uno en la comunidad para comida rápida de calidad, donde cada bocado es una explosión de sabor y conveniencia, creando momentos de felicidad en cada comida.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>¿Cual es su mision como pyme?</summary>
+                <div class="content">
+                    <p>
+                        Ofrecer una experiencia de comida rápida excepcional, con platos deliciosos y frescos que se pueden disfrutar en cualquier lugar, mientras fomentamos un ambiente amigable y accesible para todos
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>¿Quienes somos?</summary>
+                <div class="content">
+                    <p>
+                        Nuestro negocio nació para ofrecer comida rápida y sabrosa. Fundado por amigos apasionados por la cocina. Desde el principio, hemos buscado proporcionar a la comunidad una alternativa jugosa y conveniente para sus comidas diarias.
+
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>¿Cual es su objetivo?</summary>
+                <div class="content">
+                    <p>
+                        El objetivo de nuestro emprendimiento es ofrecer una experiencia rápida y conveniente para nuestros clientes, brindando una variedad de platillos deliciosos y de alta calidad, ideales para llevar. Nos enfocamos en satisfacer las necesidades de quienes buscan una comida sabrosa sin sacrificar tiempo, asegurando que cada orden sea preparada con frescura y atención al detalle.
+
+                    </p>
+                </div>
+            </details>
+        </div>
+    </div>
+    <!-- End FAQ -->
+
+    <!-- Formulario de Contacto -->
+    <section id="contact-form">
+        <h2>Contáctanos</h2>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+<div class="footer">
+    <div class="container flex">
+        <!-- Información de Contacto -->
+        <div class="footer-contact">
+            <h2>Encontranos en:</h2>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:tornadodecomida@gmail.com">tornadodecomida@gmail.com</a></li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/5491126292418" target="_blank">+54 9 11 2629-2418</a></li>
+                <li><strong>Redes Sociales:</strong> <a href="https://instagram.com/tornadodecomida" target="_blank">Instagram</a></li>
+                <li><strong>Dirección:</strong> El Salvador 161</li>
+                <!-- Mapa de Google Maps -->
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.588670040786!2d-58.341455323527406!3d-34.69032946207871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a332e4a5a3affb%3A0xc6eec74c5081a8d!2sC.%20El%20Salvador%20161%2C%20B1874%20Villa%20Dominico%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1730163382844!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"                   width="100%" 
+                    height="200" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Derechos de autor -->
+    <div class="copyright">
+        <p>Copyright &copy; 2024 Diseño por Tornado de comida</p>
+    </div>
+</div>
+<!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</body>
+
+</html>
